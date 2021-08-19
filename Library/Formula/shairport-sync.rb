@@ -25,7 +25,7 @@ class ShairportSync < Formula
   depends_on "libconfig"
   depends_on "libdaemon"
   depends_on "libsoxr"
-  depends_on "openssl@1.1"
+  depends_on "openssl"
   depends_on "popt"
   depends_on "pulseaudio"
 
