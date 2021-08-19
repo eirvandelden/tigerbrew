@@ -6,10 +6,10 @@ class ShairportSync < Formula
   license "MIT"
   head "https://github.com/mikebrady/shairport-sync.git", branch: "development"
 
-  livecheck do
-    url :stable
-    strategy :github_latest
-  end
+  # livecheck do
+  #   url :stable
+  #   strategy :github_latest
+  # end
 
   bottle do
     sha256 arm64_big_sur: "69aca6973958639950c913bc230b93bf23f200ca4ad4031a2e23f400ae9d9468"
